@@ -187,3 +187,5 @@ SELECT * FROM todos;
 DESCRIBE statuses;
 SELECT * FROM statuses;
 ```
+
+## Seders
