@@ -1,5 +1,5 @@
 
-const { Status } = require('../database/models')
+const { Status } = require('../models')
 
 const statusesServices = {}
 

@@ -1,4 +1,4 @@
-const { Todo } = require('../database/models')
+const { Todo } = require('../models')
 
 const todosServices = {}
 

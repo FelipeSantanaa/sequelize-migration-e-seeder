@@ -1,13 +1,13 @@
-const {getAllUser} = require('../services/users')
+const { getAllUsers } = require('../services/users')
 
 const controller = {
-    index: (req, res, next) => {
-        const users = await getAllUser()
-        res.render('users', {
-            title: 'Users',
-            users
-        })
-    }
+  index: async (req, res, next) => {
+    const users = await getAllUsers()
+    res.render('users', {
+      title: 'Users',
+      users
+    })
+  }
 }
 
 module.exports = controller
